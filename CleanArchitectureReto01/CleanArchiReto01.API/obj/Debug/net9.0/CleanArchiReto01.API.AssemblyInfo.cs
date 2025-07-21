@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CleanArchiReto01.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4438c090fd6849bd5baf15920d79aeeb0ff773b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3966c7a9bbfe54705600b77f7bf7c35481ee69e")]
 [assembly: System.Reflection.AssemblyProductAttribute("CleanArchiReto01.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CleanArchiReto01.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

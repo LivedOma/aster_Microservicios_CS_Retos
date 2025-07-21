@@ -31,7 +31,7 @@ namespace CleanArchiReto01.API
                         {
                             Name = "Carlos Clemente",
                             Email = "car.clemente@gmail.com",
-                            Url = new Uri("https://github.com/CarlosClemente")
+                            Url = new Uri("https://github.com/LivedOma/aster_Microservicios_CS_Retos/tree/d4438c090fd6849bd5baf15920d79aeeb0ff773b/CleanArchitectureReto01")
                         }
                     });
                     // Enable XML comments for Swagger
