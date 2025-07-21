@@ -5,10 +5,10 @@ using CleanArchiReto01.Domain.Entities;
 
 
 namespace CleanArchiReto01.API.Controllers
-{   
+{
     /// <summary>
-    /// Controller for managing users in the Clean Architecture application.
-    /// Provides endpoints to create and retrieve users.
+    /// Controlador para gestionar las tareas pendientes en la aplicación Clean Architecture.
+    /// Proporciona endpoints para crear y recuperar tareas.
     /// </summary>
     [ApiController]
     [Route("api/todoTasks")]
@@ -24,8 +24,8 @@ namespace CleanArchiReto01.API.Controllers
         }
 
         /// <summary>
-        /// Creates a new todo task in the system.
-        /// Accepts a TodoTask object and returns the created todo task with a 201 Created status.
+        /// Crea una nueva tarea en el sistema.
+        /// Accepta un objeto TodoTask y devuelve la tarea creada con un estado 201 Created.
         /// </summary>
         /// <param name="todoTask"></param>
         /// <returns></returns>
@@ -47,9 +47,9 @@ namespace CleanArchiReto01.API.Controllers
         }
 
         /// <summary>
-        /// Retrieves all users from the system.
-        /// Returns a list of users with a 200 OK status.
-        /// If an error occurs, returns a 400 Bad Request with the error message.
+        /// Obtiene todas las tareas del sistema.
+        /// Retorna una lista de tareas con un estado 200 OK.
+        /// Si ocurre un error, devuelve un estado 400 Bad Request con el mensaje de error.
         /// </summary>
         /// <returns></returns>
         [HttpGet]
@@ -59,6 +59,34 @@ namespace CleanArchiReto01.API.Controllers
             {
                 var todoTasks = await _todoTaskRepository.GetAll();
                 return Ok(todoTasks);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { error = ex.Message });
+            }
+        }
+        
+        /// <summary>
+        /// Completa una tarea por su ID.
+        /// Accepta un Guid ID y marca la tarea correspondiente como completada.
+        /// Retorna un estado 204 No Content si es exitoso.
+        /// Si la tarea no se encuentra, retorna un estado 404 Not Found con un mensaje de error.
+        /// Si ocurre un error, retorna un estado 400 Bad Request con el mensaje de error.
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        [HttpPost("complete/{id}")]
+        public async Task<IActionResult> CompleteTodoTask(Guid id)
+        {
+            try
+            {
+                var completeTodoTaskUseCase = new CompleteTodoTaskUseCase(_todoTaskRepository);
+                await completeTodoTaskUseCase.Execute(id);
+                return NoContent(); // 204 No Content
+            }
+            catch (InvalidOperationException ex)
+            {
+                return NotFound(new { error = ex.Message });
             }
             catch (Exception ex)
             {

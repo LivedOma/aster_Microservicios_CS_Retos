@@ -52,3 +52,4 @@
 /Users/mac_dev_cco/Documents/DevLab/Microservicios_CSharp/Retos/CleanArchitectureReto01/CleanArchiReto01.API/obj/Debug/net9.0/ref/CleanArchiReto01.API.dll
 /Users/mac_dev_cco/Documents/DevLab/Microservicios_CSharp/Retos/CleanArchitectureReto01/CleanArchiReto01.API/bin/Debug/net9.0/CleanArchiReto01.API.xml
 /Users/mac_dev_cco/Documents/DevLab/Microservicios_CSharp/Retos/CleanArchitectureReto01/CleanArchiReto01.API/obj/Debug/net9.0/CleanArchiReto01.API.xml
+/Users/mac_dev_cco/Documents/DevLab/Microservicios_CSharp/Retos/CleanArchitectureReto01/CleanArchiReto01.API/obj/Debug/net9.0/CleanArchiReto01.API.sourcelink.json

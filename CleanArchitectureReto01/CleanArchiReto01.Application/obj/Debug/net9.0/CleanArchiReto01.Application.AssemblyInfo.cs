@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CleanArchiReto01.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4438c090fd6849bd5baf15920d79aeeb0ff773b")]
 [assembly: System.Reflection.AssemblyProductAttribute("CleanArchiReto01.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CleanArchiReto01.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

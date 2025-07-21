@@ -15,3 +15,4 @@
 /Users/mac_dev_cco/Documents/DevLab/Microservicios_CSharp/Retos/CleanArchitectureReto01/CleanArchiReto01.Infrastructure/obj/Debug/net9.0/refint/CleanArchiReto01.Infrastructure.dll
 /Users/mac_dev_cco/Documents/DevLab/Microservicios_CSharp/Retos/CleanArchitectureReto01/CleanArchiReto01.Infrastructure/obj/Debug/net9.0/CleanArchiReto01.Infrastructure.pdb
 /Users/mac_dev_cco/Documents/DevLab/Microservicios_CSharp/Retos/CleanArchitectureReto01/CleanArchiReto01.Infrastructure/obj/Debug/net9.0/ref/CleanArchiReto01.Infrastructure.dll
+/Users/mac_dev_cco/Documents/DevLab/Microservicios_CSharp/Retos/CleanArchitectureReto01/CleanArchiReto01.Infrastructure/obj/Debug/net9.0/CleanArchiReto01.Infrastructure.sourcelink.json

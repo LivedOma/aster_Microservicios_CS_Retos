@@ -43,8 +43,8 @@ namespace CleanArchiReto01.API
 
             // Inyecting dependencies
             services.AddSingleton<ITodoTaskRepository, TodoTaskRepository>();
-            services.AddTransient<CreateTodoTaskUseCase>();
-
+            services.AddTransient<CreateTodoTaskUseCase>(); 
+            services.AddTransient<CompleteTodoTaskUseCase>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

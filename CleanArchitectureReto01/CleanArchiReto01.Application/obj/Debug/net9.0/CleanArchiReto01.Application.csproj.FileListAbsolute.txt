@@ -13,3 +13,4 @@
 /Users/mac_dev_cco/Documents/DevLab/Microservicios_CSharp/Retos/CleanArchitectureReto01/CleanArchiReto01.Application/obj/Debug/net9.0/refint/CleanArchiReto01.Application.dll
 /Users/mac_dev_cco/Documents/DevLab/Microservicios_CSharp/Retos/CleanArchitectureReto01/CleanArchiReto01.Application/obj/Debug/net9.0/CleanArchiReto01.Application.pdb
 /Users/mac_dev_cco/Documents/DevLab/Microservicios_CSharp/Retos/CleanArchitectureReto01/CleanArchiReto01.Application/obj/Debug/net9.0/ref/CleanArchiReto01.Application.dll
+/Users/mac_dev_cco/Documents/DevLab/Microservicios_CSharp/Retos/CleanArchitectureReto01/CleanArchiReto01.Application/obj/Debug/net9.0/CleanArchiReto01.Application.sourcelink.json
