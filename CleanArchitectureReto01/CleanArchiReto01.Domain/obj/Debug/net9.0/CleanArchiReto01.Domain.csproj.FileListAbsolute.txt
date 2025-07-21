@@ -1,0 +1,11 @@
+/Users/mac_dev_cco/Documents/DevLab/Microservicios_CSharp/Retos/CleanArchitectureReto01/CleanArchiReto01.Domain/bin/Debug/net9.0/CleanArchiReto01.Domain.deps.json
+/Users/mac_dev_cco/Documents/DevLab/Microservicios_CSharp/Retos/CleanArchitectureReto01/CleanArchiReto01.Domain/bin/Debug/net9.0/CleanArchiReto01.Domain.dll
+/Users/mac_dev_cco/Documents/DevLab/Microservicios_CSharp/Retos/CleanArchitectureReto01/CleanArchiReto01.Domain/bin/Debug/net9.0/CleanArchiReto01.Domain.pdb
+/Users/mac_dev_cco/Documents/DevLab/Microservicios_CSharp/Retos/CleanArchitectureReto01/CleanArchiReto01.Domain/obj/Debug/net9.0/CleanArchiReto01.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac_dev_cco/Documents/DevLab/Microservicios_CSharp/Retos/CleanArchitectureReto01/CleanArchiReto01.Domain/obj/Debug/net9.0/CleanArchiReto01.Domain.AssemblyInfoInputs.cache
+/Users/mac_dev_cco/Documents/DevLab/Microservicios_CSharp/Retos/CleanArchitectureReto01/CleanArchiReto01.Domain/obj/Debug/net9.0/CleanArchiReto01.Domain.AssemblyInfo.cs
+/Users/mac_dev_cco/Documents/DevLab/Microservicios_CSharp/Retos/CleanArchitectureReto01/CleanArchiReto01.Domain/obj/Debug/net9.0/CleanArchiReto01.Domain.csproj.CoreCompileInputs.cache
+/Users/mac_dev_cco/Documents/DevLab/Microservicios_CSharp/Retos/CleanArchitectureReto01/CleanArchiReto01.Domain/obj/Debug/net9.0/CleanArchiReto01.Domain.dll
+/Users/mac_dev_cco/Documents/DevLab/Microservicios_CSharp/Retos/CleanArchitectureReto01/CleanArchiReto01.Domain/obj/Debug/net9.0/refint/CleanArchiReto01.Domain.dll
+/Users/mac_dev_cco/Documents/DevLab/Microservicios_CSharp/Retos/CleanArchitectureReto01/CleanArchiReto01.Domain/obj/Debug/net9.0/CleanArchiReto01.Domain.pdb
+/Users/mac_dev_cco/Documents/DevLab/Microservicios_CSharp/Retos/CleanArchitectureReto01/CleanArchiReto01.Domain/obj/Debug/net9.0/ref/CleanArchiReto01.Domain.dll

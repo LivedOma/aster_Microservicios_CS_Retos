@@ -1,0 +1,6 @@
+@CleanArchiReto01.API_HostAddress = http://localhost:5245
+
+GET {{CleanArchiReto01.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

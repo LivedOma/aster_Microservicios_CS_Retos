@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CleanArchiReto01.API</name>
+    </assembly>
+    <members>
+        <member name="T:CleanArchiReto01.API.Controllers.TodoTaskController">
+            <summary>
+            Controller for managing users in the Clean Architecture application.
+            Provides endpoints to create and retrieve users.
+            </summary>
+        </member>
+        <member name="M:CleanArchiReto01.API.Controllers.TodoTaskController.CreateTodoTask(CleanArchiReto01.Domain.Entities.TodoTask)">
+            <summary>
+            Creates a new todo task in the system.
+            Accepts a TodoTask object and returns the created todo task with a 201 Created status.
+            </summary>
+            <param name="todoTask"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CleanArchiReto01.API.Controllers.TodoTaskController.GetTodoTasks">
+            <summary>
+            Retrieves all users from the system.
+            Returns a list of users with a 200 OK status.
+            If an error occurs, returns a 400 Bad Request with the error message.
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
