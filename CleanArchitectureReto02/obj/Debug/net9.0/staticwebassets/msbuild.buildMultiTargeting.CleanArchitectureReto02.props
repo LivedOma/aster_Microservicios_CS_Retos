@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/CleanArchitectureReto02.props" />
+</Project>
