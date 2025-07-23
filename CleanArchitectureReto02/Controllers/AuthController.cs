@@ -3,16 +3,16 @@ using CleanArchitectureReto02.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using CleanArchitectureReto02.Data; 
 
+/// <summary>
+/// Controlador para la autenticación de usuarios.
+/// Permite iniciar sesión y generar un token JWT para el acceso a recursos protegidos.
+/// Utiliza un servicio de JWT para la generación del token.
+/// El token incluye el nombre de usuario y el rol del usuario autenticado.
+/// El token tiene una duración de 30 minutos y se puede extender según la configuración del servicio.
+/// Este controlador es parte de la arquitectura limpia del proyecto, separando las preocupaciones de autenticación.
+/// </summary>
 [ApiController]
 [Route("api/[controller]")]
-/// <summary>
-/// Controlador para autenticación de usuarios.
-/// </summary>
-/// <remarks>/// Este controlador maneja el inicio de sesión de los usuarios y la generación de tokens JWT.
-/// </remarks>
-/// <response code="200">Retorna el token JWT y la fecha de expiración.</response>
-/// <response code="400">Retorna un error si el usuario o la contraseña son inválidos.</response>
-/// <response code="401">Retorna un error si las credenciales son incorrect
 public class AuthController : ControllerBase
 {
     private readonly IJwtService _jwtService;
@@ -22,18 +22,15 @@ public class AuthController : ControllerBase
         _jwtService = jwtService;
     }
 
-    [HttpPost("login")]
-    [ProducesResponseType(typeof(LoginResponse), 200)]
-    [ProducesResponseType(typeof(string), 400)]
-    [ProducesResponseType(typeof(string), 401)]
     /// <summary>
     /// Inicia sesión y genera un token JWT.
     /// </summary>
     /// <param name="request">Objeto que contiene el nombre de usuario y la contraseña.</param>
     /// <returns>Un objeto que contiene el token JWT y la fecha de expiración.</returns>
-    /// <response code="200">Retorna el token JWT y la fecha de expiración.</response>
-    /// <response code="400">Retorna un error si el usuario o la contraseña son inválidos.</response>
-    /// <response code="401">Retorna un error si las credenciales son incorrectas.</response>
+    [HttpPost("login")]
+    [ProducesResponseType(typeof(LoginResponse), 200)]
+    [ProducesResponseType(typeof(string), 400)]
+    [ProducesResponseType(typeof(string), 401)]
     [Produces("application/json")]  
     public IActionResult Login([FromBody] LoginRequest request)
     {

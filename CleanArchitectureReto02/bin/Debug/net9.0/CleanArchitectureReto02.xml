@@ -4,5 +4,50 @@
         <name>CleanArchitectureReto02</name>
     </assembly>
     <members>
+        <member name="T:AuthController">
+            <summary>
+            Controlador para la autenticación de usuarios.
+            Permite iniciar sesión y generar un token JWT para el acceso a recursos protegidos.
+            Utiliza un servicio de JWT para la generación del token.
+            El token incluye el nombre de usuario y el rol del usuario autenticado.
+            El token tiene una duración de 30 minutos y se puede extender según la configuración del servicio.
+            Este controlador es parte de la arquitectura limpia del proyecto, separando las preocupaciones de autenticación.
+            </summary>
+        </member>
+        <member name="M:AuthController.Login(CleanArchitectureReto02.Models.LoginRequest)">
+            <summary>
+            Inicia sesión y genera un token JWT.
+            </summary>
+            <param name="request">Objeto que contiene el nombre de usuario y la contraseña.</param>
+            <returns>Un objeto que contiene el token JWT y la fecha de expiración.</returns>
+        </member>
+        <member name="T:CleanArchitectureReto02.Controllers.UsersController">
+            <summary>
+            Controlador para la gestión de usuarios.
+            Permite obtener la lista de usuarios y los detalles de un usuario específico.
+            Utiliza la clase Users para acceder a los datos de los usuarios.
+            Este controlador es parte de la arquitectura limpia del proyecto, separando las preocupaciones de gestión de usuarios.
+            Requiere autenticación y autorización para acceder a los recursos.
+            </summary>
+        </member>
+        <member name="M:CleanArchitectureReto02.Controllers.UsersController.GetUsers">
+            <summary>
+            Obtiene la lista de todos los usuarios.
+            Requiere autorización con el rol de "Admin".    
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CleanArchitectureReto02.Controllers.UsersController.GetUserById(System.Int32)">
+            <summary>
+            Obtiene los detalles de un usuario específico por su ID.
+            Requiere autorización con el rol de "Admin" o "User".
+            Si el usuario no existe, devuelve un error 404.
+            Si el usuario no está autorizado, devuelve un error 401.
+            El ID del usuario se pasa como parámetro en la URL.
+            El método busca el usuario en la lista de usuarios y devuelve sus detalles si se encuentra.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
     </members>
 </doc>

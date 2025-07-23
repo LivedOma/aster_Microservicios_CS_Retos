@@ -52,7 +52,7 @@ builder.Services.AddSwaggerGen(options =>
         {
             Name = "Carlos Clemente",
             Email = "car.clemente@gmail.com",
-            Url = new Uri("https://github.com/LivedOma/aster_Microservicios_CS_Retos/tree/d4438c090fd6849bd5baf15920d79aeeb0ff773b/CleanArchitectureReto02")
+            Url = new Uri("https://github.com/LivedOma/aster_Microservicios_CS_Retos/tree/0c369affcbdd2395e317f21882e4098b24f8b604/CleanArchitectureReto02")
         }
     });
     // Enable XML comments for Swagger
